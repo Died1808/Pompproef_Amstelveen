@@ -244,7 +244,7 @@ class GEF:
         model komen. 
         NB: Dit is een voorbeeld van hoe er met TTIM gerekend kan worden, nogmaals,
         de correlatie met de werkelijkheid is vooralsnog toevallig.
-        Tenslotte wordt het model doorgerekdn (duurt circa 5 minuten)
+        Tenslotte wordt het model doorgerekend (duurt circa 5 minuten)
         """
 
         ml=Model3D(kaq=df['k'], z=dfn[ 'depth'], Saq= Ss, kzoverkh=df['kzkh'], tmin=0.0001, 
@@ -266,9 +266,7 @@ class GEF:
         onderste het verloop in de tijd van de verlagingen in de peilbuis op
         23 meter. Deze onderste figuur wordt sterk beinvloedt door de S.
         De meetgevens zijn opgenomen in een externe Excel (Pb-PP.xlsx)
-        De duidelijke eb/vloed in de metingen wordt niet meegerekend in het TTIM
-        model (zou in theorie wel kunnen) 
-        
+      
         """
         laag = np.arange(61,62,1) #Zie vera de jong pp 118/158
         kleuren(len(laag))
